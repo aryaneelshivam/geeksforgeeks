@@ -7,6 +7,7 @@
 - The current tools available on the market are not too user friendly either.
 - Steep learning curve.
 - Inaccessibility of such software, and hidden behind hefty paywalls
+- Only accessible and usable by specialized technical analysts
 - This gap in the market, is in need of an innovative tool that simplify the usage and expose the market to a new user pool irrespective of their age and skill level.
 
 ## RESULT:
