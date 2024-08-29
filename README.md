@@ -1,7 +1,7 @@
 
 # Stock Analyzer
 
-## PROBLEM STATEMENT:
+## PROBLEM STATEMENT
 - financial analysis software are too complicated for the common people.
 - The existing solutions are too technical for a beginner to start.
 - The current tools available on the market are not too user friendly either.
@@ -10,7 +10,7 @@
 - Only accessible and usable by specialized technical analysts
 - This gap in the market, is in need of an innovative tool that simplify the usage and expose the market to a new user pool irrespective of their age and skill level.
 
-## RESULT:
+## OVERVIEW
 
 Combination of multiple prebuilt technical analysis indictors are used in backend, which pulls in company financial data and use sophisticated prompt engineering and generative AI to give a rank or score after thorough analysis. Usage of LLM (Large Language Models) to parse the given data into simplified consumer-friendly information. The programme also uses NLP (Natural Language Processing) to analyze market sentiment to adjust the given data. It scrapes public data from NATIONAL STOCK ECHANGE and parse it to structured database. This data is used in order to calculate PE (Profit to Expense) Ratio, Debt to Equity ratio, Earnings per share in the backend. Using Retrieval Augmented Generation (RAG) for conversational data analysis and Gemini generative Ai wrapper for visual chart analysis. It uses multiple technical analysis visual indicators to show possible uptrends and downtrends.
 
