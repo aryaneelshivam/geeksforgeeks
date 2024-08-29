@@ -34,12 +34,12 @@ st.set_page_config(
 )
 
 #for chart visual analysis
-ggi.configure(api_key = "AIzaSyCHnbexsyaJwE3Fhm3nfVAExCFzTTQaZNc")
+ggi.configure(api_key = st.secrets["Gemini_API_Key"])
 model = ggi.GenerativeModel(model_name="gemini-1.5-flash")
 
 
-llm = OpenAI(api_token="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")
-openai.api_key = "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"
+llm = OpenAI(api_token=st.secrets["OpenAI_Key"])
+openai.api_key = st.secrets["OpenAI_Key"]
 
 instruction = """\
 1.Convert the dataset and summarize with every important points.
