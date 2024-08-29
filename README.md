@@ -11,9 +11,10 @@
 
 ## RESULT:
 
-Combination of multiple prebuilt technical analysis indictors are used in backend, which pulls in company financial data and use sophisticated prompt engineering and generative AI to give a rank or score after thorough analysis. Usage of LLM (Large Language Models) to parse the given data into simplified consumer-friendly information. The programme also uses NLP (Natural Language Processing) to analyze market sentiment to adjust the given data. It scrapes public data from NATIONAL STOCK ECHANGE and parse it to structured database. This data is used in order to calculate PE (Profit to Expense) Ratio, Debt to Equity ratio, Earnings per share in the backend.
+Combination of multiple prebuilt technical analysis indictors are used in backend, which pulls in company financial data and use sophisticated prompt engineering and generative AI to give a rank or score after thorough analysis. Usage of LLM (Large Language Models) to parse the given data into simplified consumer-friendly information. The programme also uses NLP (Natural Language Processing) to analyze market sentiment to adjust the given data. It scrapes public data from NATIONAL STOCK ECHANGE and parse it to structured database. This data is used in order to calculate PE (Profit to Expense) Ratio, Debt to Equity ratio, Earnings per share in the backend. Using Retrieval Augmented Generation (RAG) for conversational data analysis and Gemini generative Ai wrapper for visual chart analysis. It uses multiple technical analysis visual indicators to show possible uptrends and downtrends.
 
-The programme also exploratory data analysis and manipulation, and highly interactive dynamic graphs and data visualisation. Thus leading to a safe and reliable platform for stock enthusiast.
+The programme also exploratory data analysis and manipulation, and highly interactive dynamic graphs and data visualisation. Thus leading to a safe and reliable platform for stock enthusiast irrespective of their age and skill level.
+
 
 
 
