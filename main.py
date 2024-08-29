@@ -34,12 +34,12 @@ st.set_page_config(
 )
 
 #for chart visual analysis
-ggi.configure(api_key = [API KEY])
+ggi.configure(api_key = "AIzaSyCHnbexsyaJwE3Fhm3nfVAExCFzTTQaZNc")
 model = ggi.GenerativeModel(model_name="gemini-1.5-flash")
 
 
-llm = OpenAI(api_token=[API KEY])
-openai.api_key = [API KEY]
+llm = OpenAI(api_token="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")
+openai.api_key = "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"
 
 instruction = """\
 1.Convert the dataset and summarize with every important points.
@@ -61,6 +61,7 @@ stock_symbol = st.sidebar.text_input("Enter Stock Symbol", placeholder="Ex: TATA
 start_date = st.sidebar.date_input("Start Date", date.today() - timedelta(days=60))
 end_date = st.sidebar.date_input("End Date", date.today())
 st.sidebar.caption("⚠ NOTE: Make sure to keep a minimum of 30-day gap between the start-date and the end-date.")
+st.sidebar.link_button("Read the guide docs 📄", "https://docs.google.com/document/d/1DezoHwpJB_qJ9kalaaLAhi1zHLG_KwcUq65Biiiuzqw/edit?usp=sharing", use_container_width=True)
 sensitivity = 0.03
 with st.popover("Open trading view popover 📈"):
             st.markdown("##### Google trends: rising search terms over the last 7 days")
@@ -271,7 +272,8 @@ if stock_symbol:
                 with st.spinner(text="Generating stock profile analysis..."):
                     query_engine = PandasQueryEngine(df=stock_data, verbose=True, synthesize_response=True)
                     response = query_engine.query("Analyse the data and make stock purchase decision")
-                st.write(response)
+                    with card_container():
+                        st.markdown(response)
 
         with st.sidebar.popover("Open popover"):
             uploaded_file = st.file_uploader("Choose a file")
