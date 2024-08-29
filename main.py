@@ -53,7 +53,7 @@ st.write(
     """
 )
 
-yf.pdr_override()
+#yf.pdr_override()
 
 # Sidebar for user input
 stock_symbol = st.sidebar.text_input("Enter Stock Symbol", placeholder="Ex: TATASTEEL.NS")
