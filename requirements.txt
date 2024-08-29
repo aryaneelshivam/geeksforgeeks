@@ -1,0 +1,13 @@
+streamlit
+numpy
+pandas
+yfinance
+TIME-python
+tradingview-ta
+streamlit-shadcn-ui
+plotly_express==0.4.0
+llama-index-core
+llama-index-llms-openai
+openai
+python-gemini-api
+google-generativeai
