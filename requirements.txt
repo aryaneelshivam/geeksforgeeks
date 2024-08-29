@@ -13,3 +13,4 @@ python-gemini-api
 google-generativeai
 llama-index-experimental
 llama-index-llms-gemini
+llama-index-llms-vertex
