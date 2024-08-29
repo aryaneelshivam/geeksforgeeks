@@ -2,7 +2,7 @@
 # Stock Analyzer
 
 ## PROBLEM STATEMENT
-- financial analysis software are too complicated for the common people.
+- Financial analysis software are too complicated for the common people.
 - The existing solutions are too technical for a beginner to start.
 - The current tools available on the market are not too user friendly either.
 - Steep learning curve.
