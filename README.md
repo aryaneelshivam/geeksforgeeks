@@ -22,7 +22,8 @@ The programme also exploratory data analysis and manipulation, and highly intera
 
 ## Screenshots
 
-![Web App Screenshot](https://postimg.cc/SnQfHTwx)
+![Web App Screenshot](https://i.postimg.cc/g28tX1s8/temp-Image-Dmu-MSD.avif)
+
 ![Web App Screenshot](https://i.postimg.cc/jjM8G9Rf/ss1.png)
 
 ![Web App Screenshot](https://i.postimg.cc/9MzxVpfn/ss2.jpg)
