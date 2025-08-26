@@ -69,7 +69,7 @@ source .venv/bin/activate
 ## Authors
 
 - [@aryaneelshivam](https://github.com/aryaneelshivam)
-- [@gautam](https://github.com/ryuiiji)
+- [@gautam](https://github.com/jst-gxtm)
 
 
 ## REFERENCES AND RESOURCES:
